@@ -1,14 +1,6 @@
 # Deskripsi
 Project ini adalah frontend dari aplikasi e-commerce untuk penjualan baju. Aplikasi hanya dapat digunakan 1 arah, dimana hanya ada 1 admin yaitu pihak pemilik aplikasi (penjual), dan user hanya dapat membeli.
 
-
-# Panduan Setup Proyek (Next.js)
-
-Terima kasih telah menggunakan proyek ini! Ikuti langkah-langkah di bawah ini untuk menjalankan proyek di mesin Anda.
-
-## Persiapan Sebelum Memulai
-Pastikan bahwa backend sudah berjalan sebelum melanjutkan langkah berikutnya. Jika backend belum berjalan, proyek ini tidak akan berfungsi dengan baik.
-
 ## Langkah-langkah Instalasi
 
 1. **Clone Repository**
