@@ -1,0 +1,38 @@
+# Panduan Setup Proyek (Next.js)
+
+Terima kasih telah menggunakan proyek ini! Ikuti langkah-langkah di bawah ini untuk menjalankan proyek di mesin Anda.
+
+## Persiapan Sebelum Memulai
+Pastikan bahwa backend sudah berjalan sebelum melanjutkan langkah berikutnya. Jika backend belum berjalan, proyek ini tidak akan berfungsi dengan baik.
+
+## Langkah-langkah Instalasi
+
+1. **Clone Repository**
+   Clone repository ini ke komputer Anda dengan perintah berikut:
+   ```bash
+   git clone <URL_REPOSITORY>
+   ```
+
+2. **Install Dependensi**
+   Masuk ke direktori proyek dan jalankan perintah berikut untuk menginstall semua dependensi yang diperlukan:
+   ```bash
+   npm install
+   ```
+3. **Menjalankan Proyek**
+   Jalankan server pengembangan dengan salah satu perintah berikut:
+   ```bash
+   npm run dev
+   # atau
+   yarn dev
+   # atau
+   pnpm dev
+   # atau
+   bun dev
+   ```
+
+   Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
+
+## Catatan Penting
+
+- Pastikan backend telah berjalan sebelum menjalankan frontend.
+- Proyek ini menggunakan [next/font](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) untuk mengoptimalkan font secara otomatis.

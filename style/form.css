@@ -1,0 +1,90 @@
+.top-button-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.top-button-wrapper .top-button{
+    border: solid 2px white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+    color: black;
+    background-color: white;
+    margin: 30px 0;
+}
+
+.top-button-wrapper .top-button.active{
+    background-color: transparent;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    font-size: 20px;
+}
+
+input{
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.forgot-password{
+    text-decoration: underline;
+}
+
+.bottom-button-wrapper .bot-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.bottom-button-wrapper .bot-button{
+    border: solid 2px white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.bottom-button-wrapper .bot-button:nth-child(1){
+    background-color: white;
+    color: black;
+}
+
+.header-wrapper h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.header-wrapper h2{
+    font-size: 20px;
+    opacity: 0.5;
+    margin-bottom: 40px;
+}
+
+.forgot-password-input{
+    background-color: transparent;
+    border-bottom: solid 2px white;
+    border-radius: 0;
+    padding-left: 0;
+}
+
+.btl{
+    color: grey;
+    transition: 0.2s ease-in-out;
+}
+
+.btl:hover{
+    color: white;
+}
